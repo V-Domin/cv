@@ -1,0 +1,40 @@
+img {
+    width: 500px;
+    margin-top: 30px;
+    
+    border:2px solid var(--borderColor);
+    margin-top: 10px;
+    margin-bottom: 35px;
+}
+
+.main-img{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.git-code {
+  font-family: 'Roboto Mono', monospace;
+}
+
+ul {
+    margin: 0;
+    line-height: 25px;
+}
+
+ul.dashed {
+    list-style-type: none;
+  }
+  ul.dashed > li {
+    text-indent: -5px;
+
+  }
+  ul.dashed > li:before {
+    content: "-";
+    text-indent: -5px;
+
+  }
+
+span {
+    position: relative;
+    left: 10px;
+}
